@@ -92,3 +92,29 @@ Ausgabe Container
   padding: 8px 12px;
   background-color: #eeeeee;
 }
+
+/***************************
+Auswahlmöglichkeiten (Checkboxes)
+***************************/
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+input[type='number'] {
+  font-size: 1em;
+  font-family: 'Karla', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .result-container {
+    font-size: 0.875em;
+  }
+
+  input[type='number'] {
+    font-size: 0.875em;
+    font-family: 'Karla', sans-serif;
+  }
+}
