@@ -51,6 +51,9 @@ Container
   border-radius: 20px;
 }
 
+/***************************
+Ausgabe Container
+***************************/
 .result-container {
   background-color: #eeeeee;
   display: flex;
@@ -65,4 +68,27 @@ Container
   border-radius: 20px;
   box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 1),
     4px 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40%);
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: #eeeeee;
+}
+
+.btn {
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 8px 12px;
+  background-color: #eeeeee;
 }
