@@ -37,3 +37,16 @@ h2 {
 input[type='checkbox'] {
   margin-right: 0;
 }
+
+/***************************
+Container
+***************************/
+.container {
+  background-color: #eeeeee;
+  box-shadow: -7px -7px 7px 0px rgba(255, 255, 255, 1),
+    10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 20px;
+}
