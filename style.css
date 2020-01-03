@@ -50,3 +50,19 @@ Container
   max-width: 100%;
   border-radius: 20px;
 }
+
+.result-container {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 1.125em;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 1),
+    4px 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
