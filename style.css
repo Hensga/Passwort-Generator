@@ -118,3 +118,14 @@ input[type='number'] {
     font-family: 'Karla', sans-serif;
   }
 }
+
+/***************************
+Passwort generieren Button
+***************************/
+.btn-large {
+  width: 50%;
+  box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 1),
+    4px 4px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin: 0 25%;
+}
