@@ -3,6 +3,6 @@ Passwort Generator mit mehreren Einstellmöglichkeiten
 
 Aussehen nach Neumorphism gestaltet.
 
-JavaScript Code verwendet von Florin Pop
+JavaScript Code von Florin Pop
 
 https://codepen.io/FlorinPop17/full/BaBePej
